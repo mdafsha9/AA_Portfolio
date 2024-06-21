@@ -1,172 +1,186 @@
-<!DOTYPE html>
+<!Doctype html>
 <html>
   <head>
-    <title>Portfolio</title>
-    <!--=====Meta information======--->
-    <meta chraset="UTF-8">
+    <title>Afsha</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="portfolio">
+    <meta name="description" content="html,css, javascript">
+    <meta name="keywords" content="skills, services">
+    <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!--======CSS files======--->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/color-1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="JS/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   </head>
   <body>
-    <!---====Main container start====---->
-    <div class="main-container">
-      <!--====Aside bar start===--->
-      <div class="aside">
-        <div class="logo">
-          <a href="#"><span>Port</span>folio</a>
+    <header>
+      <nav>
+        <div class="logo">Hi<span>@</span>AA</div>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#pro">Projects</a>
+          <a href="#jobs">Jobs</a>
+          <a href="#contact">Contact</a>
         </div>
-        <div class="nav-toggler">
-          <span></span>
-        </div>
-        <ul class="nav">
-          <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-          <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-          <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-          <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-          <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
-        </ul>
+      </nav>
+      <div class="text">
+        <p>Hello, I am</p>
+        <h1>Afsha Ammisetty</h1>
+        <p>And I am a <span id="ani" style="color:#f71460;"></span></p>
+        <button class="c-btn"><a href="mailto:mdafsha9@gmail.com">Hire me</a></button>
       </div>
-      <div class
-      <!--====Aside bar end===--->
-      <!---====Main content start====---->
-      <div class="main-content">
-        <!--====Home sectio start==--->
-        <section class="home section hidden">
-          <div class="container">
-            <div class="row">
-              <div class="home-info padd-15">
-                <h3 class="hello">Hello, my name is <span class="name">Afsha</span></h3>
-                <h3 class="my-profession">I' m a <span class="typing">Front End Developer</span></h3>
-                <p>I'm a web Designer with extensive experience for over 10years. My expertise is to create and website design, graphic design, and many more...</p>
-                <a href="#contact" class="btn hire-me">Hire Me</a>
-              </div>
-              <div class="home-img padd-15">
-                <img src="assets/Afsha.png" alt="">
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--====Home sectionn end==--->
-        <!--====About section start==--->
-        <div class="about section">
-          <div class="container">
-            <div class="row">
-              <div class="section-title padd-15">
-                <h2>About Me</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="about-content padd-15">
-                <div class="row">
-                  <div class="about-text padd-15">
-                    <h3>I'm Afsha and <span>Front End Developer</span></h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="personal-info padd-15">
-                    <div class="row">
-                      <div class="info-item padd-15">
-                        <p>Birthday : <span>09 June 1990</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Higher Education : <span>Master of Science</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Email : <span>mdafsha9@gmail.com</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Website : <span>https://github.com/mdafsha9</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Phone : <span>+91-8977577973</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>City : <span>Guntur</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Phone : <span>+91-8977577973</span></p>
-                      </div>
-                      <div class="info-item padd-15">
-                        <p>Phone : <span>+91-8977577973</span></p>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="buttons padd-15">
-                        <a href="#" class="btn">Download CV</a>
-                        <a href="#contact" class="btn hire-me">Hire Me</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skills padd-15">
-                    <div class="row">
-                      <div class="skill-item padd-15">
-                        <h5>HTML</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width:90%;"></div>
-                          <div class="skill-percent">90%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>CSS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width:85%;"></div>
-                          <div class="skill-percent">85%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>JS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width:75%;"></div>
-                          <div class="skill-percent">85%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>SCSS</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width:80%;"></div>
-                          <div class="skill-percent">80%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>Bootstrap</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width:85%;"></div>
-                          <div class="skill-percent">85%</div>
-                        </div>
-                      </div>
-                      <div class="skill-item padd-15">
-                        <h5>Angular</h5>
-                        <div class="progress">
-                          <div class="progress-in" style="width:75%;"></div>
-                          <div class="skill-percent">75%</div>
-                        </div>
-                      </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="education padd-15">
-                  <h3 class="title">Education</h3>
-                </div>
-                <div class="experience padd-15">
-                  <h3 class="title">Experience</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--====About section end==--->
+    </header>
+
+    <section id="about">
+      <div class="section-1">
+        <h1>About</h1>
+        <p>Who I am ?</p>
       </div>
-      <!---====Main content end====---->
+
+      <div class="about-row">
+        <div class="about-left-col">
+          <img src="assets/about.png">
+        </div>
+        <div class="about-right-col">
+        <p id="p-title">Hello, I'm Afsha & I'm a <span id="ani2" style="color:#f71460;"></span></p>
+        <p>I work with agencies across the globe to create high performance & rich interactive websites that work across all platforms & devices.
+        Although I'm very familiar with using frameworks, my websites are primarily hand-coded using <b> HTML5, CSS3, SASS, Bootstrap, JavaScript, and React.</b></p>
+        <p>With a strong emphasis on "Progressive Enhancement", I look for creative ways to push the boundaries of website front-end code without
+        compromising on browser support and performance.</p>
+        <p>In a quest for always keeping myself updated.</p>
+          <button class="c-btn"><a class="dcv" href="" download>Download CV</a></button>
+        </div>
+      </div>
+    </section>
+    <section id="pro">
+      <div class="section-2">
+        <h1 class="col">Projects</h1>
+        <p>My projects are</p>
+      </div>
+      <div class="projects-nav">
+        <div class="projects-menu">
+          <ul>
+            <li class="active" data-filter="*">Show All</li>
+            <li data-filter=".javascript">JavaScript</li>
+            <li data-filter=".bootstrap">Bootstrap</li>
+            <li data-filter=".scss">SCSS</li>
+            <li data-filter=".angular">React</li>
+            <li data-filter=".designs">UI/UX Designer</li>
+            <li data-filter=".websites">Websites</li>
+          </ul>
+        </div>
+        <div class="projects">
+          <div class="proj websites javascript"><a href="https://github.com/mdafsha9/Project1-Gallery" target="_blank"><img class="site" src="assets/gallery.png"></a></div>
+          <div class="proj websites"><img class="site" src="assets/gym.png"></div>
+          <div class="proj websites javascript"><a href="https://mdafsha9.github.io/calculator-project/" target="_blank"><img class="site" src="assets/cal.png"></a></div>
+          
+        
+          <div class="proj designs"><img class="site" src="assets/Honestblock.png"></div>
+          <div class="proj designs"><img class="site" src="assets/theguruji.png"></div>
+          <div class="proj designs"><img class="site" src="assets/HealthBlockchain.png"></div>
+          <div class="proj designs"><img class="site" src="assets/HomePage.png"></div>
+         
+          <div class="proj websites"><img class="site" src="assets/portfolio.png"></div>
+          <div class="proj websites javascript"><a href="https://mdafsha9.github.io/color-flipper-project/" target="_blank"><img src="assets/colorflipper.png"></a></div>
+          
+      </div>
     </div>
-    <!---====Main container end====---->
-    <!---====JS files====---->
-    <script src="js/script.js"></script>
+    </section>
+    <section id="jobs">
+      <div class="section-1">
+        <h1>Jobs</h1>
+        <p>My experience's</p>
+      </div>
+      <div class="jobs-row">
+        <div class="jobs-box" data-tilt>
+          <img src="assets/logo.png">
+          <h2>Front end developer</h2>
+          <p>HTML,CSS, JavaScript,<br>CMS (Webflow & Drupal)</p>
+          <div class="work-row">
+              <button class="c-btn1"><a href="https://www.wallsmetalroofing.com/" target="_blank">Live project</a></buuton>
+          </div>
+        </div>
+        
+        </div>
+       
+       
+        </div>
+      
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-3">
+        <h1>Get in Touch</h1>
+        <p>I'm avaible</p>
+      </div>
+      <div class="contact-row">
+        <div class="contact-left-col">
+          <img src="assets/b3.png">
+        </div>
+        <div class="contact-right-col">
+        <div class="con">
+          <img src="assets/email.png"><br>
+          <i>mdafsha9@gmail.com</i>
+        </div>
+        <div class="con">
+          <img src="assets/contact.png"><br>
+          <i>9028707003</i>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <a href="https://www.linkedin.com/in/afsha-mohammed-82612a127/" target="_blank"><img src="assets/linkedin.jpg"></a>
+        <a href="https://github.com/mdafsha9" target="_blank"><img src="assets/github.png"></a>
+    </footer>
+    <script src="js/jquery.ripples-min.js"></script>
+    <script>
+    jQuery(document).ready(function(){
+      $('header').ripples({
+  dropRadius:20,
+  perturbance:0.03,
+});
+    });
+    </script>
+    <script>
+    let animate = new Typed("#ani", {
+      strings:["Front End Developer", "Graphic Designer"],
+      typeSpeed:100,
+      backSpeed:100,
+      loop:true,
+    })
+    </script>
+    <script>
+    let animate2 = new Typed("#ani2", {
+      strings:["Front End Developer", "Graphic Designer"],
+      typeSpeed:100,
+      backSpeed:100,
+      loop:true,
+    })
+    </script>
+    <script src="JS/tilt.jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.projects').isotope({
+    // options
+    itemSelector: '.proj',
+    layoutMode: 'fitRows'
+    });
+
+        $('.projects-menu ul li').click(function(){
+          $('.projects-menu ul li').removeClass('active');
+          $(this).addClass('active');
+
+            var selector = $(this).attr('data-filter');
+          $('.projects').isotope({
+            filter:selector
+          })  ;
+          return false;
+        });
+    </script>
   </body>
 </html>
