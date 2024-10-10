@@ -32,4 +32,9 @@ jobs:
       env:
         DEPLOY_TOKEN: ${{ secrets.DEPLOY_TOKEN }}  # Use secret for deployment token
 
-  
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: build-files
+        path: ./dist  # Ensure the path is correct
+
